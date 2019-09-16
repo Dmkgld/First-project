@@ -1,0 +1,39 @@
+/* comments ctrl+/ */
+
+div{
+    width: 200px;
+    height: 150px;
+    border: 2px solid coral;
+    /* background-color: rgb(82, 204, 198); */
+}
+
+.backgrimg{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(13, 199, 97);
+    border-radius: 100%;
+    background-image: url("/img/chiang.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.one {
+    border: 15px groove coral;
+    border-radius: 100%
+}
+
+.two {
+    border: 10px dashed rgb(255, 238, 80);
+    border-radius: 80%
+}
+
+.three {
+    border: 12px double rgb(37, 194, 186);
+}
+
+.four {
+    border: 13px ridge rgba(80, 127, 255, 0.5);
+}
+
+img {
+    border: 11px  rgb(188, 255, 80);
+}
