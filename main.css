@@ -6,8 +6,20 @@ div{
     border: 2px solid coral;
     /* background-color: rgb(82, 204, 198); */
 }
-
-.backgrimg{
+p{
+    background-color: aliceblue;
+}
+.backgrimg1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(13, 199, 97);
+    border-radius: 100%;
+    background-image: url("/img/chiang.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.backgrimg2{
+    display: inline-block;
     width: 200px;
     height: 200px;
     border: 2px solid rgb(13, 199, 97);
@@ -17,6 +29,7 @@ div{
     background-repeat: no-repeat;    
 }
 .one {
+    display: block;
     border: 15px groove coral;
     border-radius: 100%
 }
