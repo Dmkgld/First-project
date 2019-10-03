@@ -50,3 +50,30 @@ p{
 img {
     border: 11px  rgb(188, 255, 80);
 }
+
+.center_text{
+    text-align: center;
+}
+
+.right_text{
+    text-align: right;
+}
+
+.justify_text{
+    text-align: justify;
+}
+
+a:link{
+    color: blue;
+}
+a:visited{
+    color: aqua;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+a:active{
+    color: brown;
+}
