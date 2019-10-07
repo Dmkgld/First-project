@@ -63,9 +63,11 @@ img {
     text-align: justify;
 }
 
+/* LVHA последовательность построения для атрибутов а: */
 a:link{
     color: blue;
 }
+
 a:visited{
     color: aqua;
 }
@@ -76,4 +78,15 @@ a:hover{
 
 a:active{
     color: brown;
+}
+
+p::first-letter{
+    font: bold;
+    font-size: 36px;
+    color: brown;
+    /* line-height: .5;  хрень какая то*/
+}
+
+p::first-line{
+    color: rgb(202, 49, 202)
 }
