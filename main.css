@@ -90,3 +90,15 @@ p::first-letter{
 p::first-line{
     color: rgb(202, 49, 202)
 }
+
+div p{
+    
+    background-color: rgb(151, 102, 102);
+}
+
+div ~ p{
+    background-color: rgb(135, 211, 179);
+}
+
+/* другие примеры и объяснение "div p" на https://www.w3schools.com/css/css_combinators.asp */
+
