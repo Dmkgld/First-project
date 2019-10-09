@@ -1,5 +1,11 @@
 /* comments ctrl+/ */
-
+html{
+    background-color: rgb(112, 109, 109);
+}
+body{
+    width: 94%;
+    margin: 0 auto; 
+}
 div{
     width: 200px;
     height: 150px;
@@ -30,6 +36,7 @@ p{
 }
 .one {
     display: block;
+    margin: 0 auto;
     border: 15px groove coral;
     border-radius: 100%
 }
@@ -102,4 +109,3 @@ div ~ p{
 
 /* другие примеры и объяснение "div p" на https://www.w3schools.com/css/css_combinators.asp */
 
-col
