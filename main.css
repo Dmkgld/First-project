@@ -110,3 +110,9 @@ div ~ p{
 
 /* другие примеры и объяснение "div p" на https://www.w3schools.com/css/css_combinators.asp */
 
+h1{
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(25, 29, 90);
+}
