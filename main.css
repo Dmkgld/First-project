@@ -113,6 +113,17 @@ div ~ p{
 h1{
     font-family: serif;
     font-size: 30px;
+    font-variant: small-caps;
+    text-align: center;
+    color: rgb(25, 29, 90);
+}
+
+h2{
+    font-family: serif;
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    font-weight: normal; 
+    text-transform: uppercase;
     text-align: center;
     color: rgb(25, 29, 90);
 }
