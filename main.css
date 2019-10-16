@@ -8,7 +8,7 @@ body{
     background: url("./img/listilki.jpg"); 
 }
 div{
-    width: 200px;
+    /* width: 200px; */
     height: 150px;
     border: 2px solid rgb(240, 117, 72);
     /* background-color: rgb(82, 204, 198); */
@@ -116,13 +116,15 @@ h1{
     font-variant: small-caps;
     text-align: center;
     color: rgb(25, 29, 90);
+    line-height: normal;
 }
 
 h2{
     font-family: serif;
     font-size: 1.5rem;
     font-variant: small-caps;
-    font-weight: normal; 
+    font-weight: normal;
+    line-height: 2; 
     text-transform: uppercase;
     text-align: center;
     color: rgb(25, 29, 90);
