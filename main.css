@@ -100,8 +100,7 @@ p::first-line{
 }
 
 div p{
-    
-    background-color: rgb(190, 204, 195);
+    background-color: rgb(17, 136, 58);
 }
 
 div ~ p{
@@ -111,21 +110,38 @@ div ~ p{
 /* другие примеры и объяснение "div p" на https://www.w3schools.com/css/css_combinators.asp */
 
 h1{
-    font-family: serif;
+    font-family: 'Inspiration';
     font-size: 30px;
-    font-variant: small-caps;
+    /* font-variant: small-caps; */
     text-align: center;
     color: rgb(25, 29, 90);
     line-height: normal;
 }
 
 h2{
-    font-family: serif;
+    font-family: 'Inspiration';
     font-size: 1.5rem;
     font-variant: small-caps;
     font-weight: normal;
     line-height: 2; 
     text-transform: uppercase;
     text-align: center;
-    color: rgb(25, 29, 90);
+    color: rgb(236, 10, 10);
+    text-shadow: 5px 2px 5px rgb(19, 17, 18);
+}
+
+.big_A{
+    font-family: 'Inspiration';
+    font-size: 7rem;
+    text-align: center;
+    font-weight: 800;
+    text-shadow: 5px 2px 5px rgb(228, 120, 18);
+}
+
+
+@font-face {
+    font-family: 'Inspiration';
+    src: url(/Fonts/Inspiration.ttf) format('truetype');
+    font-style: normal; 
+    font-weight: normal;
 }
