@@ -72,15 +72,17 @@ img {
 }
 
 /* LVHA последовательность построения для атрибутов а: */
-.shadow_link{
-    text-shadow: 5px 5px 5px rgb(212, 10, 10);
-}
+
 
 a{
     display: block;
     font-size: 4rem;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-align: center;
+}
+
+.shadow_link{
+    text-shadow: 5px 5px 5px rgb(212, 10, 10);
 }
 
 a:link{
