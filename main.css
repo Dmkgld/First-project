@@ -120,14 +120,15 @@ h1{
 
 h2{
     font-family: 'Inspiration';
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-variant: small-caps;
     font-weight: normal;
     line-height: 2; 
     text-transform: uppercase;
     text-align: center;
     color: rgb(236, 10, 10);
-    text-shadow: 5px 2px 5px rgb(19, 17, 18);
+    /* text-shadow: 5px 2px 5px rgb(19, 17, 18); */
+    background-color: rgb(152, 219, 197);
 }
 
 .big_A{
