@@ -16,6 +16,10 @@ div{
 p{
     background-color: rgb(209, 231, 250);
 }
+#abzats{
+    text-indent: 2em;
+}
+
 .backgrimg1{
     width: 200px;
     height: 200px;
@@ -79,6 +83,8 @@ a{
     font-size: 4rem;
     /* margin: 0 auto; */
     text-align: center;
+    /* убираем подчеркивание ссылок */
+    text-decoration-line: none;
 }
 
 .shadow_link{
@@ -91,6 +97,10 @@ a:link{
 
 a:visited{
     color: rgb(21, 255, 0);
+    /* с тегом visited работает только фунции изменения цвета */
+    /* например, тег деклорации линии не работает */
+    /* text-decoration-line: none; */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector */
     
 }
 
