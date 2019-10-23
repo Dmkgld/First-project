@@ -88,6 +88,10 @@ a{
 }
 
 .shadow_link{
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
     text-shadow: 5px 5px 5px rgb(212, 10, 10);
 }
 
