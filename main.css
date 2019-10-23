@@ -174,10 +174,23 @@ h2{
     font-weight: 800;
     text-shadow: 5px 2px 5px rgb(228, 120, 18);
 }
-
 .dudes{
+    border: none;
+    height: 200px;
+    overflow: auto;
+}
+.dudes img{
+    height: 200px;
+    width: 100px;
+    float: right;
+}
+.dudes span{
     font-size: 5rem;
     color: red;
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
 }
 
 @font-face {
