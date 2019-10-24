@@ -1,0 +1,32 @@
+figure{
+    display: inline-block;
+    margin: 0;
+}
+.red{
+    height: 50px;
+    width: 90px;
+    background-color: red;
+    border: 0.1px solid rgb(27, 29, 28);
+    border-radius: 20px;
+   }
+.blue{
+    height: 50px;
+    width: 90px;
+    background-color: blue;
+    border: 0.1px solid rgb(27, 29, 28);
+    border-radius: 20px;
+   }
+.green{
+    height: 50px;
+    width: 90px;
+    background-color: green;
+    border: 0.1px solid rgb(27, 29, 28);
+    border-radius: 20px;
+   }
+.yellow{
+    height: 50px;
+    width: 90px;
+    background-color: yellow;
+    border: 0.1px solid rgb(27, 29, 28);
+    border-radius: 20px;
+   }
