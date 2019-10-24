@@ -9,11 +9,14 @@ body{
 }
 ul{
     list-style: none;
+    border: 1px solid rgb(165, 20, 20);
+    
 }
 li{
     border: 1px solid rgb(165, 20, 20);
-    width: 250px;
-    margin: 1px;
+    height: 80px;
+    width: 550px;
+    display: inline-block;
 }
 
 div{
@@ -87,8 +90,8 @@ img {
 /* LVHA последовательность построения для атрибутов а: */
 .nav_link{
     color: rgb(0, 162, 255); 
-    display: block;
-    margin: 0 auto;
+    display: inline-block;
+    border: 2px solid yellow;
     text-align: center;
     text-shadow: 5px 5px 5px rgb(212, 158, 10);
 }
