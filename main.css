@@ -10,11 +10,12 @@ body{
 ul{
     list-style: none;
     border: 1px solid rgb(165, 20, 20);
+    display: inline-block;
     
 }
 li{
     border: 1px solid rgb(165, 20, 20);
-    height: 80px;
+    height: 90px;
     width: 550px;
     display: inline-block;
 }
