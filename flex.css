@@ -9,10 +9,10 @@ header{
 div{
     width: 150px;
     height: 100px;
-    background-color: azure;
+    background-color: rgba(226, 229, 160, 0.877);
     border: 2px solid blue;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 55px;
 }
 
 #justi-s{
@@ -27,5 +27,6 @@ div{
 
 #justi-s2{
     display: flex;
-    /* justify-content: right; */
+    justify-content: flex-end;
 }  
+
