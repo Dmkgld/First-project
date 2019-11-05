@@ -29,4 +29,43 @@ div{
     display: flex;
     justify-content: flex-end;
 }  
+#justi-s3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 
+#small{
+    width: 150px;
+    height: 90px;
+    background-color: rgba(226, 229, 160, 0.877);
+    border: 2px solid blue;
+    text-align: center;
+}
+
+#med{
+    width: 150px;
+    height: 250px;
+    background-color: rgba(226, 229, 160, 0.877);
+    border: 2px solid blue;
+    text-align: center;
+}
+
+#big{
+    width: 350px;
+    height: 350px;
+    background-color: rgba(226, 229, 160, 0.877);
+    border: 2px solid blue;
+    text-align: center;
+}
+
+#huge{
+    display: flex;
+    width: 550px;
+    height: 550px;
+    background-color: rgba(226, 229, 160, 0.877);
+    border: 2px solid blue;
+    justify-content: center;
+    align-items: center;
+   
+}
