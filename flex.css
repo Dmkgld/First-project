@@ -56,7 +56,11 @@ div{
     height: 350px;
     background-color: rgba(226, 229, 160, 0.877);
     border: 2px solid blue;
-    text-align: center;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
 }
 
 #huge{
@@ -67,5 +71,14 @@ div{
     border: 2px solid blue;
     justify-content: center;
     align-items: center;
-   
+
+}
+
+#justi-s4{
+    width: 800px;
+    height: 1000px;
+    border: 2px solid red;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
 }
