@@ -83,7 +83,35 @@ div{
     align-content: center;
 }
 
+#justi-s5{
+display: flex;
+}
+
+.shrink1{
+    flex-shrink: 1;
+    width: 400px;
+    height: 100px;
+    border: 2px solid red;
+}
+.shrink2{
+    flex-shrink: 2;
+    width: 400px;
+    height: 100px;
+    border: 2px solid red;
+}
+.shrink3{
+    flex-shrink: 3;
+    width: 400px;
+    height: 100px;
+    border: 2px solid red;
+}
+
+
 .footer_ref{
     color: rgb(115, 190, 190);
     font-size: 2rem;
+}
+
+.color_foot_ref{
+    color: pink;
 }
