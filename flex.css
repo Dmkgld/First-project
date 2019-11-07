@@ -82,3 +82,8 @@ div{
     flex-flow: row wrap;
     align-content: center;
 }
+
+.footer_ref{
+    color: rgb(115, 190, 190);
+    font-size: 2rem;
+}
