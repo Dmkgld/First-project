@@ -5,7 +5,8 @@ html{
 body{
     width: 94%;
     margin: 0 auto;
-    background: url("./img/stones.jpg"); 
+    background: url("./img/stones.jpg");
+    background-attachment: fixed; 
 }
 
 #boxes{
