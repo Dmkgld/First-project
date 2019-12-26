@@ -1,7 +1,30 @@
-body {
+body{
+/* border: 3px solid pink;  */
 margin: 0;
-padding: 0;    
+padding: 0;   
+}
+#idx-art{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
 background-image:url("./img/torii.jpg");
 background-attachment: fixed;
-background-position: center;
+background-position: top;
+background-size: cover;
+background-repeat: no-repeat; 
+}
+
+.idx-center{
+display: flex;
+flex-flow: column nowrap;
+justify-content: center;
+align-items: center;
+color: rgb(179, 233, 210);
+/* обрамление текста */
+text-shadow: 1px 0 1px black, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+/* обрамление текста */
 }
