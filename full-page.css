@@ -1,8 +1,13 @@
+html{
+   font-family: 'Cantarell', sans-serif;
+}
+
 body{
 /* border: 3px solid pink;  */
 margin: 0;
 padding: 0;   
 }
+
 #idx-art{
 height: 100vh;
 display: flex;
@@ -20,11 +25,40 @@ display: flex;
 flex-flow: column nowrap;
 justify-content: center;
 align-items: center;
-color: rgb(179, 233, 210);
+color: rgb(216, 241, 230);
 /* обрамление текста */
 text-shadow: 1px 0 1px black, 
 0 1px 1px #000, 
 -1px 0 1px #000, 
 0 -1px 1px #000;
 /* обрамление текста */
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Kotta One', serif;
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1rem;
+    
+}
+ 
+.idx-button{
+    background-color: rgb(152, 62, 204);
+    margin: 5px;
+    padding: 0.5rem;
+    font-size: 13px;
+    color: rgb(214, 241, 230);
+    /* обрамление текста */
+    text-shadow: 1px 0 1px black, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+    /* обрамление текста */
 }
