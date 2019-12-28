@@ -1,5 +1,12 @@
 html{
     font-family: 'Cantarell', sans-serif;
+    color: rgb(216, 241, 230);
+    /* обрамление текста */
+    text-shadow: 1px 0 1px black, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+    /* обрамление текста */
  }
  
  body{
@@ -14,29 +21,29 @@ html{
 
 
  #idx-art{
- height: 100vh;
- display: flex;
- justify-content: center;
- align-items: center;
- background-image:url("./img/torii.jpg");
- background-attachment: fixed;
- background-position: top;
- background-size: cover;
- background-repeat: no-repeat; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("./img/torii.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat; 
  }
  
- .idx-center{
- display: flex;
- flex-flow: column nowrap;
- justify-content: center;
- align-items: center;
- color: rgb(255, 30, 0);
- /* обрамление текста */
- text-shadow: 1px 0 1px black, 
- 0 1px 1px #000, 
- -1px 0 1px #000, 
- 0 -1px 1px #000;
- /* обрамление текста */
+ .idx-spase{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.idx-center{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
  }
  
  h1{
@@ -61,11 +68,4 @@ html{
      margin: 5px;
      padding: 0.5rem;
      font-size: 13px;
-     color: rgb(183, 221, 221);
-     /* обрамление текста */
-     text-shadow: 1px 0 1px black, 
-     0 1px 1px #000, 
-     -1px 0 1px #000, 
-     0 -1px 1px #000;
-     /* обрамление текста */
- }
+}
