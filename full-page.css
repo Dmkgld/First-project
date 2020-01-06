@@ -27,8 +27,9 @@ html{
     align-items: center;
     background-image:url("./img/torii.jpg");
     background-attachment: fixed;
-    background-position: top;
+    background-position: bottom;
     background-size: cover;
+    background-origin: content-box;
     background-repeat: no-repeat; 
  }
  
