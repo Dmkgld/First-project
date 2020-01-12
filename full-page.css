@@ -179,3 +179,7 @@ header h1{
     0 -1px 1px #000;
     /* обрамление текста */
 }
+
+footer{
+    display: none;
+}

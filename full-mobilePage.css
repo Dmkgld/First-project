@@ -169,3 +169,19 @@ header h1{
     0 -1px 1px #000;
     /* обрамление текста */
 }
+
+footer {
+    background-color: rgb(126, 47, 126);
+    color: rgb(255, 255, 154);
+}
+
+footer svg{
+ fill: currentColor;
+}
+
+footer a{
+    color: currentColor;
+}
+footer a:hover{
+    color: red;
+}
