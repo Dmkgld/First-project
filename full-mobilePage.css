@@ -1,43 +1,113 @@
 html{
-   font-family: 'Cantarell', sans-serif;
-   color: rgb(216, 241, 230);
+    font-family: 'Cantarell', sans-serif;
+    color: rgba(68, 243, 123, 0.78);
     /* обрамление текста */
     text-shadow: 1px 0 1px black, 
     0 1px 1px #000, 
     -1px 0 1px #000, 
     0 -1px 1px #000;
     /* обрамление текста */
+ }
+ 
+ body{
+ /* border: 3px solid pink;  */
+ margin: 0;
+ padding: 0;
+ }
+
+ header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(0,0,0, 0.6);
+    color: white;
+    /* border: 3px solid tomato; */
 }
 
-body{
-    /* border: 3px solid pink;  */
-    margin: 0;
-    padding: 0;   
-    }
+header div{
+    height: 85%;
+    width: 100%;
+    display: contents;
+    align-items: center;
+    
+
+}
+
+header nav{
+    display: none;
+}
+
+header div a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: currentColor;
+} 
+
+header a:hover{
+    color: red;
+}
+
+header div a h1 {
+    margin-left: 0.5rem;
+}
+
+
+header h1{
+    /* text-align: center; */
+    font-size: 0.9rem;
+    font-family: 'Gabriela', serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* border: 2px solid rgb(41, 165, 173); */
+}
+
+.id-svg{
+    height: 100%;
+    width: 30px;
+    fill: currentColor;
+    /* border: 2px solid white; */
+
+}
+
+.id-svg:hover{
+    color: red;
+}
+
+
+
 
 #idx-art > div{
-    height: 90vh;
-}
+     height: 75vh;
+     /* border: 3px solid tomato; */
+ }
 
-#idx-art{
+
+ #idx-art{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:url("./img/torii.jpg");
+    text-align: center;
+    background-image:url("./img/santi.jpg");
     background-attachment: fixed;
-    background-position: top;
+    background-position: bottom;
     background-size: cover;
+    background-origin: content-box;
     background-repeat: no-repeat;
-
-}
-
-.idx-spase{
+    /* border: 3px solid tomato;  */
+ }
+ 
+ .idx-spase{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /* align-content: center; */
 }
 
 .idx-center{
@@ -45,34 +115,53 @@ body{
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-}
-
-h1{
-    text-align: center;
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-
-h2{
-    font-family: 'Kotta One', serif;
-    font-size: 1.3rem;
-    text-align: center;
-}
-
-h3{
-    font-size: 1rem;
-    text-align: center;
-    
-}
+ }
  
-button{
-    background-color: transparent;
-    border: 3px solid rgb(212, 161, 19);
-    border-radius: 5px;
-    margin: 5px;
-    padding: 0.5rem;
-    font-size: 13px;
-    color: rgb(216, 241, 230);
+ h1{
+     font-size: 2rem;
+     font-weight: bold;
+      /* обрамление текста */
+    text-shadow: 2px 0 1px black, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+    /* обрамление текста */
+ }
+ 
+ 
+ h2{
+     font-family: 'Kotta One', serif;
+     font-size: 1.5rem;
+      /* обрамление текста */
+    text-shadow: 3px 0 1px black, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+    /* обрамление текста */
+ }
+ 
+ 
+ h3{
+     font-size: 1rem;
+      /* обрамление текста */
+    text-shadow: 2px 0 1px black, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+    /* обрамление текста */
+ 
+     
+ }
+  
+ button{
+     background-color: transparent;
+     border: 3px solid rgb(243, 240, 68);
+     border-radius: 5px;
+     margin: 5px;
+     padding: 0.5rem;
+     font-size: 15px;
+     font-weight: bold;
+     color: rgb(109, 159, 224);
     /* обрамление текста */
     text-shadow: 1px 0 1px black, 
     0 1px 1px #000, 

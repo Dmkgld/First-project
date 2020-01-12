@@ -51,6 +51,14 @@ header div a, header nav a {
     height: 100%;
     color: currentColor;
 } 
+header nav a{
+    padding: 0 .8em;
+    
+}
+header nav a:hover{
+    background-color: rgb(0,0,0, 0.3);
+    border-radius: 5px;
+}
 
 header a:hover{
     color: red;
@@ -95,6 +103,7 @@ header h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-image:url("./img/santi.jpg");
     background-attachment: fixed;
     background-position: bottom;
