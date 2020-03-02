@@ -1,0 +1,23 @@
+div{
+    width: 350px;
+    height: 350px;
+    background-color: blue;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-size: 4rem;
+}
+
+div:hover{
+ color: blue;
+ background-color: yellow;
+}
+
+.trans{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+}
