@@ -1,0 +1,31 @@
+html body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+div{
+padding: 35vh;
+border: black solid 1px;
+}
+
+.anima-svg{
+    fill: rgb(17, 18, 68);
+    animation-name: trnsflwr;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+@keyframes trnsflwr{
+    0% {fill: yellow; transform: rotate(0deg);}
+    20% {fill: rgb(145, 255, 0); transform: rotate(-72deg);}
+    40% {fill: rgb(0, 255, 128); transform: rotate(-144deg);}
+    60% {fill: rgb(0, 255, 255); transform: rotate(-216deg);}
+    80% {fill: rgb(0, 17, 255); transform: rotate(-290deg);}
+    100% {fill: rgb(255, 0, 98); transform: rotate(-360deg);}
+}
